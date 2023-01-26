@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube video Download!</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+</head>
+<body>
+<h1>Welcome to the Youtube Video Downloader Website!!</h1>
+<h2> Please Enter the url below , which you want to download</h2>
+
+<form  action="" method="POST">
+    {% csrf_token %}
+    <label for="link">Enter URL:</label>
+   <input type="text" id="link" name="link"><br><br>
+   <input type="submit" value="Submit">
+</form>
+</body>
+</html>

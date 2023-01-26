@@ -1,0 +1,19 @@
+h1
+{
+color : red;
+}
+h2
+{
+color: blue;
+}
+input[type=text] {
+border: 2px solid red;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+body
+{
+background-color:grey;
+}
